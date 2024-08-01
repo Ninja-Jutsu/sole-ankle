@@ -9,8 +9,7 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog'
 
-import { QUERIES, WEIGHTS } from '../../../lib/constants/constants'
-
+import { QUERIES, WEIGHTS } from '@/lib/constants/constants'
 import UnstyledButton from '../../general/UnstyledButton'
 import Icon from '../Icon'
 import VisuallyHidden from '../../general/VisuallyHidden'

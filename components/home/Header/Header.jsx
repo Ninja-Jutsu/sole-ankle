@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { QUERIES } from '../../../lib/constants/constants'
-import Logo from '../Logo'
-import Icon from '../Icon'
+import { QUERIES } from '@/lib/constants/constants'
+import Logo from '../../home/Logo'
+import Icon from '../../home/Icon'
+import SuperHeader from '../../home/SuperHeader'
+import MobileMenu from '../../home/MobileMenu'
+import NavLink from '../../home/NavLink'
 import UnstyledButton from '../../general/UnstyledButton'
-import SuperHeader from '../SuperHeader'
-import MobileMenu from '../MobileMenu'
 import VisuallyHidden from '../../general/VisuallyHidden'
-import NavLink from '../NavLink'
 
 const Header = () => {
   const [showMobileMenu, setShowMobileMenu] = React.useState(false)

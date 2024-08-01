@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { WEIGHTS } from '../../../lib/constants/constants'
+import { WEIGHTS } from '@/lib/constants/constants'
 
 const NavLink = ({ children, ...delegated }) => {
   return (
